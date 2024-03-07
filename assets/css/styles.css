@@ -212,7 +212,8 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: white;
+    /* border: 1px solid black; */
 }
 .hii {
   /* border: 1px solid black; */
@@ -222,18 +223,19 @@ img {
   width: 1.5rem;
   font-size: 1.5rem;
   color: var(--second-color);
+  margin: 12px;
 }
 
 .home__social-icon:hover {
-  color: var(--first-color);
+  /* color: var(--first-color); */
 }
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+    bottom: 0;
   width: 260px;
   margin: 10px;
-    background-color: rgb(0, 123, 123);
+  background-color: rgb(0, 123, 123);
     border-radius: 25px;
 }
 .home__blob {
@@ -420,6 +422,9 @@ img {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
 }
+.footer__title:hover {
+  color: purple;
+}
 .footer__social {
   margin-bottom: var(--mb-4);
 }
@@ -427,6 +432,9 @@ img {
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2);
+}
+.footer__icon:hover {
+  color: purple;
 }
 .footer__copy {
   font-size: var(--smaller-font-size);

@@ -8,9 +8,9 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: rgb(30, 30, 194);
-    --second-color: ;
-    background-color: rgb(214, 212, 215);
+  --first-color:rgb(78, 36, 225);
+    /* --second-color:rgb(254, 211, 212) ; */
+    background-color:white;
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -112,7 +112,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: rgb(17, 69, 117);
+  background-color:  rgb(78, 36, 225);
     box-shadow: 0 1px 4px rgba(225, 234, 242, 0.15);
 }
 
@@ -133,7 +133,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: rgb(78, 36, 225);
     transition: 0.5s;
     color: white;
   }
@@ -247,6 +247,9 @@ img {
   width: 420px;
     border: 1px solid black;
 }
+.massage, .student{
+  color: white;
+}
 
 /*BUTTONS*/
 .button {
@@ -259,7 +262,7 @@ img {
   transition: 0.3s;
 }
 .button:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 36px rgba(14, 51, 218, 0.15);
 }
 
 /* ===== ABOUT =====*/
@@ -283,6 +286,12 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.border-box{
+  /* border: 1px solid black; */
+  background-color:rgb(111, 113, 244)
+  ;
+}
+
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -327,6 +336,10 @@ img {
   padding: 20px;
   margin: 20px;
 }
+.skillsimg{
+  height: 100px;
+  margin-left: 100px;
+}
 
 /*=====Education=====*/
 .fix{
@@ -347,7 +360,7 @@ img {
   padding-bottom: 0;
 }
 .black {
-  color: black;
+  color:rgb(78, 36, 225);
 }
 
 .black2 {
@@ -562,4 +575,5 @@ img {
   justify-content: space-between;
   padding: 50px;
   gap: 40px;
+  background-color: rgb(78, 36, 225);
 }

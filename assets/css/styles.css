@@ -430,7 +430,7 @@ img {
   margin-bottom: var(--mb-4);
 }
 .footer__title:hover {
-  color: purple;
+  color:rgb(71, 199, 25);
 }
 .footer__social {
   margin-bottom: var(--mb-4);
@@ -570,10 +570,15 @@ img {
   background-color: white;
 }
 .footer {
-  height: 200px;
+  height: 250px;
   display: flex;
   justify-content: space-between;
   padding: 50px;
   gap: 40px;
   background-color: rgb(78, 36, 225);
 }
+.contact-email{
+  color: white;
+}
+
+

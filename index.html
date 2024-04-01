@@ -46,26 +46,19 @@
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="homeborder">
-            <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Susheel</span><br> Aspiring <br><span
-                        style="color:black;">Full Stack Developer</span>
-                </h1>
-                <a href="#footer" class="button">Contact</a>
-            </div>
-            <div class="home__social">
-            </div>
-            <div class="home__img">
-                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g mask="url(#mask0)">
-                        <path
-                            d="0133EC20113" />
-                        <image class="home__blob-img" x="30" y="30" href="./assets/img/susheel.png" />
-                    </g>
-                </svg>
-            </div>
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Susheel</span><br> Aspiring <br><span
+                            style="color:black;">Full Stack Developer</span>
+                    </h1>
+                    <a href="#footer" class="button">Contact</a>
+                </div>
+                <div class="home__img">
+                            <img align="left" alt="coding" width="500"
+                                src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pkbgoupmgjv98otfuzjzz3olilr56muin6aigv8q&rid=giphy.gif&ct=g">
+                </div>
             </div>
         </section>
+        
 
         <!--===== ABOUT =====-->
         <section class="about section" id="about" >
@@ -73,7 +66,7 @@
             <h2 class="section-title">About</h2>
             <div class="about__container bd-grid border-box">
                 <div class="about__img">
-                    <img src="./assets/img/about.png" alt="">
+                    <img class="pho" src="./assets/img/about.png" alt="">
                 </div>
 
                 <div class="intro">
@@ -101,10 +94,12 @@
         <section class="skills section" id="skills">
             <div class="mainskill">
             <h2 class="section-title">Skills</h2>
+            
+            
             <div class="skills__container bd-grid">
-                <div>
-                    <h2 class="skills__subtitle">Profesional Skills</h2>
 
+                <h2 class="skills__subtitle">Profesional Skills</h2>
+                <div class="skilldiv">
                     <div class="skills__data">
                             <span class="skills__name">PYTHON</span>
                     </div>
@@ -125,14 +120,12 @@
                         </div>
                     </div>
                     <div>
-            <div class="html">
-                <div class="css">
+            <div class="icon">
+                <div class="icon1">
                     <img height="120px" width="120px" src="./assets/img/3d-python-programming-language-logo-free-png.webp" alt=""
                         class="skills__img">
                     <img height="120px" width="120px" src="./assets/img/html.png" alt="" class="skills__img">
                     <img height="120px" width="120px"" src=" ./assets/img/css3.png" alt="" class="skills__img">
-                </div>
-                <div class="css">
                     <img height="120px" width="160px" src="./assets/img/javascript.png" alt="" class="skills__img">
                     <img height="120px" width="120px" src="./assets/img/react.png" alt="" class="skills__img">
                     <img height="120px" width="190px" src="./assets/img/sql.png" alt="" class="skills__img">
@@ -226,24 +219,26 @@
         </section>
 
         <!--===== Github =====-->
-        <section class="work section" id="github">
-            <div class="maingithub">
-            <h2 class="section-title">Github</h2>
 
-            <div class="work__container bd-grid github">
-                <p><img class="centerr" align="center"
-                        src="https://github-readme-streak-stats.herokuapp.com/?user=susheelvishwa&"
-                        alt="susheelvishwa" /></p>
-                <p><img align="left"
-                        src="https://github-readme-stats.vercel.app/api/top-langs?username=susheelvishwa&show_icons=true&locale=en&layout=compact"
-                        alt="susheelvishwa" /></p>
-                <p>&nbsp;<img align="center"
-                        src="https://github-readme-stats.vercel.app/api?username=susheelvishwa&show_icons=true&locale=en"
-                        alt="susheelvishwa" /></p>
-            </div>
-            </div>
+        <section class="work section" id="github">
+                <h2 class="section-title">Github</h2>
+        
+                <div class="work__container_git bd-grid">
+                    <div align="center" class="git">
+                        <div><img
+                                src="https://github-readme-stats.vercel.app/api?username=susheelvishwa&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
+                                alt="susheelvishwa" /></div>
+                        <div><img
+                                src="https://github-readme-stats.vercel.app/api/top-langs?username=susheelvishwa&show_icons=true&locale=en&layout=compact&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
+                                alt="susheelvishwa" /></div>
+                        <div><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=susheelvishwa&theme=dark"
+                                alt="susheelvishwa" /></p>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
+    
 
     <!--===== FOOTER =====-->
     <footer id="footer" class="footer">
@@ -251,7 +246,7 @@
             <p class="footer__title">Susheel Vishwakarma</p>
             <p>Location :  Bhopal Madhya pradesh</p>
             <p>mobile number : 9630791492</p>
-            <p><a class="contact-email" href="susheelvishwakarma.india@gmail.com">susheelvishwakarma.india@gmail.com</a></p>
+            
         </div>
         <div class="right1">
             <div class="footer__social">
@@ -263,8 +258,11 @@
                 <a href="https://twitter.com/Susheel02627991" class="footer__icon"><i class='bx bxl-twitter'></i></a>  
                     <a href="https://github.com/susheelvishwa" class="footer__icon"><i class='bx bxl-github'></i></a>
                 <a href="https://www.linkedin.com/in/susheelvishwakarma65" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-                
-                
+                <br>
+                <br>
+
+                <p><a href="mailto:Susheelvishwakarma.india@gmail.com"
+                        style="color:white;">Susheelvishwakarma.india@gmail.com</a></p>
             </div>
         </div>
     </footer>

@@ -26,7 +26,7 @@ const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
-    // When we click on each nav__link, we remove the show-menu class
+
     navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
@@ -51,39 +51,3 @@ const scrollActive = () =>{
     })
 }
 window.addEventListener('scroll', scrollActive)
-
-/*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2000,
-    delay: 200,
-//     reset: true
-});
-
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
-
-
-var typed = new Typed(".typing", {
-  strings: ["Full Stack Developer", "Front-End Developer", "Coder"],
-  typeSpeed: 20,
-  BackSpeed: 60,
-  loop: true,
-});
-
-var typed1 = new Typed(".name", {
-  strings: ["мαηѕι Bagul"],
-  typeSpeed: 100,
-  BackSpeed: 60,
-  loop: true,
-});
-
-var typed2 = new Typed("#full", {
-  strings: ["👋 Hey I'm Mansi Bagul and"],
-  typeSpeed: 80,
-  BackSpeed: 60,
-  loop: true,
-});

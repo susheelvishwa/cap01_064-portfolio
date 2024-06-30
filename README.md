@@ -7,7 +7,7 @@
 
 ## Features
 
-![screenShort](./assets/img/image.png)
+![screenShort](./assets/img/image2.png)
 
 - Responsive design
 - Interactive navigation menu

@@ -1,6 +1,4 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-/*===== VARIABLES CSS =====*/
+
 :root {
   --header-height: 3rem;
   --font-semi: 600;
@@ -132,8 +130,8 @@ a {
 .home {
   position: relative;
   row-gap: 5rem;
-  padding: 4rem 0 5rem;
-  margin-top: 20px;
+  /* padding: 4rem 0 5rem; */
+  /* margin-top: 20px; */
 }
 .home__title {
   font-size: var(--big-font-size);
@@ -146,8 +144,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin: 30px;
-  padding: 30px;
 }
 
 .button {
@@ -190,39 +186,6 @@ a {
   border-radius: 15px;
 }
 
-/* ===== SKILLS =====*/
-.skills__container {
-  /* border: 1px solid black; */
-  display: flex;
-  border-radius: 15px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 50px 80px;
-}
-.skilldiv>div{
-  background-color:rgb(111, 113, 244);
-  color: white;
-}
-.skilldiv{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 40px;
-}
-.skills__data {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  font-weight: var(--font-semi);
-  padding: 0.5rem 1rem;
-  margin-bottom: var(--mb-4);
-  border-radius: 0.5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-}
-.icon1{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-
 /* ===== Tools =====*/
 
 .work__container {
@@ -230,7 +193,6 @@ a {
   padding: 70px;
   border-radius: 10px;
   row-gap: 2rem;
-  width: ;
 }
 
 .work__imgg{
@@ -439,4 +401,330 @@ a {
   color: white;
 }
 
+body {
+  background-color: #ffffff;
+  color: #8ac7db;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
+.Skillcontainer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+}
+
+.tech-item {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tech-item img {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+.tech-item p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tech-stack-container,
+.tools-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 3fr));
+  gap: 20px;
+}
+
+.tech-item,
+.tool-item {
+  background-color: #1E1E1E;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.tech-item img,
+.tool-item img {
+  max-width: 64px;
+  margin-bottom: 10px;
+}
+
+.tech-item span,
+.tool-item span {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tech-item:hover,
+.tool-item:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Section */
+.footer {
+  background-color: rgb(78, 36, 225);
+  color: white;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+  gap: 2rem;
+  width: 100%;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  margin-left: 62%;
+}
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+  display: flex;
+
+}
+
+.footer__icon:hover {
+  color: #00aaff;
+}
+
+.footer__icon i {
+  display: block;
+}
+
+.footer__social a {
+  margin-bottom: 1rem;
+}
+
+.footer__social a:last-child {
+  margin-bottom: 0;
+}
+
+.footer__social p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.left1,
+.right1 {
+  flex: 1;
+  padding: 1rem;
+}
+
+.left1 {
+  text-align: left;
+}
+
+.right1 {
+  text-align: right;
+}
+
+.right1 a {
+  margin-bottom: 0.5rem;
+}
+
+.right1 a:last-child {
+  margin-bottom: 0;
+}
+
+.footer__social p a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__social p a:hover {
+  color: #00aaff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left1,
+  .right1 {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .right1 {
+    margin-top: 1rem;
+  }
+}
+
+/* Education Section */
+.fix {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.edu {
+  display: block;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.edu:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.edu h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.edu h4 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.black {
+  color: rgb(78, 36, 225);
+}
+
+.black1 {
+  color: rgb(59, 55, 55);
+}
+
+.black2 {
+  color: rgb(72, 49, 220);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .work__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Project Section */
+.projects {
+  padding: 2rem 0;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-item {
+  background-color: #1E1E1E;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 4px solid rgb(78, 36, 225);
+}
+
+.project__info {
+  padding: 1rem;
+  text-align: left;
+}
+
+.project__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(78, 36, 225);
+}
+
+.project__description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #aaa;
+}
+
+.project__link {
+  text-decoration: none;
+  color: rgb(0, 122, 255);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.project__link:hover {
+  color: #00aaff;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aboutmain {
+  margin-top: 30px;
+}

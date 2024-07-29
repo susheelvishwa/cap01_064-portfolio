@@ -389,14 +389,6 @@ a {
   color: black;
   background-color: white;
 }
-.footer {
-  height: 250px;
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-  gap: 40px;
-  background-color: rgb(78, 36, 225);
-}
 .contact-email{
   color: white;
 }
@@ -669,13 +661,17 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+  margin: 5px;
 }
 
 .project-item {
-  background-color: #1E1E1E;
+  background-color: #232323;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: rgba(62, 62, 255, 0.2)  0px 7px 29px 0px;
 }
 
 .project__img {

@@ -31,14 +31,10 @@
                     <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
                     <li class="nav__item"><a href="#github" class="nav__link">Github</a></li>
                     <li class="nav__item">
-                        <a target="_blank" href="./assets/img/Resume Susheel Vishwakarma.pdf" class="nav__link"
+                        <a id="resume-link" href="./assets/img/Resume Susheel Vishwakarma.pdf" class="nav__link"
                             download="Resume_Susheel_Vishwakarma.pdf">Resume</a>
                     </li>
-
                 </ul>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
             </div>
         </nav>
     </header>
@@ -314,17 +310,17 @@
         <div class="right1">
             <div class="footer__social">
                 
-                <a href="https://www.linkedin.com/in/susheelvishwakarma65" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/susheelvishwa" class="footer__icon"><i class='bx bxl-github'></i></a>
-                <a href="https://twitter.com/Susheel02627991" class="footer__icon"><i class='bx bxl-twitter'></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100076134753688" class="footer__icon"><i
+                <a target="_blank" href="https://www.linkedin.com/in/susheelvishwakarma65" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a target="_blank" href="https://github.com/susheelvishwa" class="footer__icon"><i class='bx bxl-github'></i></a>
+                <a target="_blank" target="_blank" href="https://twitter.com/Susheel02627991" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100076134753688" class="footer__icon"><i
                         class='bx bxl-facebook'></i></a>
-                <a href="https://www.instagram.com/susheelvishwakarma65/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+                <a target="_blank" href="https://www.instagram.com/susheelvishwakarma65/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
                 
                 <br>
                 <br>
             </div>
-            <p><a href="mailto:Susheelvishwakarma.india@gmail.com" style="color:white;">Susheelvishwakarma.india@gmail.com</a></p>
+            <p><a target="_blank" href="mailto:Susheelvishwakarma.india@gmail.com" style="color:white;">Susheelvishwakarma.india@gmail.com</a></p>
             <div>
             </div>
         </div>
@@ -338,6 +334,22 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+    <script>
+        document.getElementById('resume-link').addEventListener('click', function (event) {
+            event.preventDefault();
+            var link = this.href;
+            var win = window.open(link, '_blank');
+            win.focus();
+            win.onload = function () {
+                var a = document.createElement('a');
+                a.href = link;
+                a.download = 'Resume_Susheel_Vishwakarma.pdf';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            };
+        });
+    </script>
 </body>
 
 </html>

@@ -14,50 +14,48 @@
 
 <body>
     <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
+    <header class="l-header ">
+        <nav class="nav bd-grid ">
             <div>
                 <a href="#" class="nav__logo">
                     <h2>Susheel Vishwakarma</h2>
                 </a>
             </div>
-
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills and Tools</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
                     <li class="nav__item"><a href="#github" class="nav__link">Github</a></li>
-                    <li class="nav__item">
-                        <a id="resume-link" href="./assets/img/Susheel.pdf" class="nav__link"
-                            download="Susheel.pdf">Resume</a>
-                    </li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main class="l-main">
+
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
-            <div class="homeborder">
+            <div class="homeborder work__container">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Susheel</span><br> Aspiring <br><span
                             style="color:rgb(28, 9, 233);">Full Stack Developer</span>
                     </h1>
-                    <a href="#footer" class="button">Contact</a>
+                    <a class="button" id="resume-link" href="./assets/img/Susheel-Vishwakarma-Resume.pdf" class="nav__link"
+                        download="Susheel-Vishwakarma-Resume.pdf">Resume</a>
                 </div>
                 <div class="home__img">
-                    <img src="./assets/img/image1.png" alt="">
+                    <img class="laptop" src="./assets/img/laptop3.png" alt="">
                 </div>
             </div>
         </section>
-        
+        <!-- -------------------------------------------------------------------------------------->
 
         <!--===== ABOUT =====-->
-        <section class="about section" id="about" >
+        <section class="about section" id="about" aria-colspan="">
             <div class="aboutmain">
             <h2 class="section-title">About</h2>
             <div class="work__container ">
@@ -66,25 +64,23 @@
                     <img class="pho" src="./assets/img/about.png" alt="">
                 </div>
                 <div class="intro">
-                    <h2 class="student">Student & Aspiring Full Stack Developer</h2>
+                    <h2 class="student">Aspiring Full Stack Developer</h2>
                     <p class="message">
-                        <span>Student at Masai</span> & <span>Aspiring Full Stack Developer.</span> I am pursuing my
-                        <span>B.Tech</span> in Electronics and Communication at the Sagar Institute
-                        of Research and Technology, Bhopal. As a passionate full-stack web developer, I regularly work
-                        in that capacity. Currently, <span>my expertise has given me a good understanding of both front-end and back-end
-                            technologies,</span> allowing me to design unique, user-friendly software solutions. I am diligent and
-                        strive for
-                        perfection in whatever I do. As I continue to progress, I am excited to professionally apply my abilities and
-                        expertise as a Full
-                        Stack Developer. <span>I will complete my graduation in June 2024.</span>
+                        I am a student at Masai and an aspiring Full Stack Developer. I have completed my B.Tech in Electronics and
+                        Communication at the Sagar Institute of Research and Technology, Bhopal in June 2024. As a passionate full-stack web
+                        developer, I regularly work in that capacity. My expertise has given me a good understanding of both front-end and
+                        back-end technologies, allowing me to design unique, user-friendly software solutions. I am diligent and strive for
+                        perfection in whatever I do. As I continue to progress, I am excited to professionally apply my abilities and expertise
+                        as a Full Stack Developer.
                     </p>
                 </div>
                 </div>
             </div>
             </div>
         </section>
-        <!-- ------------------------------------------------------------------------------------ -->
+        <!-- -------------------------------------------------------------------------------------->
 
+        <!--===== Skills =====-->
         <section id="skills" class="work section">
             <h2 class="section-title">Tech stack and tools</h2>
             <div class="work__container ">
@@ -140,40 +136,40 @@
                             <img src="https://cdn.svgporn.com/logos/redux.svg" alt="Redux Logo">
                             <span>Redux</span>
                         </div>
-                        </div>
-                        </section>
-                <section class="tools section" id="tools">
-                    <h2 class="section-title">🛠️ Tools</h2>
+                    </div>
+                </section>
+                <h2>🛠️ Tools</h2>
+                <section>
                     <div class="tools-container">
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://code.visualstudio.com/assets/favicon.ico" alt="VS Code Logo">
                             <span>VS Code</span>
                         </div>
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://cdn.svgporn.com/logos/git-icon.svg" alt="Git Logo">
                             <span>Git</span>
                         </div>
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub Logo">
                             <span>GitHub</span>
                         </div>
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://cdn.svgporn.com/logos/npm.svg" alt="NPM Logo">
                             <span>NPM</span>
                         </div>
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://cdn.svgporn.com/logos/netlify.svg" alt="Netlify Logo">
                             <span>Netlify</span>
                         </div>
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://cdn.svgporn.com/logos/vercel.svg" alt="Vercel Logo">
                             <span>Vercel</span>
                         </div>
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://cdn.svgporn.com/logos/postman-icon.svg" alt="Postman Logo">
                             <span>Postman</span>
                         </div>
-                        <div class="tool-item">
+                        <div class="tool-item tech-item">
                             <img src="https://cdn.svgporn.com/logos/vitejs.svg" alt="Vite Logo">
                             <span>Vite</span>
                         </div>
@@ -192,8 +188,8 @@
                     <img class="college fix work__imgg" src="./assets/img/college.jpg" alt="">
                     <img class="school fix work__imgg" src="./assets/img/school.jpg" alt="">
                     <a href="" class="Masaischool edu">
-                        <h3 class="black">Masai School, Bengoluru</h3>
-                        <h4 class="black1">aspiring full stack developer</h4>
+                        <h3 class="black">Masai School, Bengaluru</h3>
+                        <h4 class="black1">Aspiring full stack developer</h4>
                         <h4 class="black2">January 2023 to December 2024</h4>
                     </a>
                     <a href="" class="collegee edu">
@@ -279,23 +275,27 @@
         <!--===== Github =====-->
 
         <section class="work section" id="github">
-                <h2 class="section-title">Github</h2>
-        <div class="work__container ">
+            <h2 class="section-title">Github</h2>
+            <div class="work__container">
                 <div class="work__container_git bd-grid">
                     <div align="center" class="git">
-                        <div><img
-                                src="https://github-readme-stats.vercel.app/api?username=susheelvishwa&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
-                                alt="susheelvishwa" /></div>
-                        <div><img
-                                src="https://github-readme-stats.vercel.app/api/top-langs?username=susheelvishwa&show_icons=true&locale=en&layout=compact&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
-                                alt="susheelvishwa" /></div>
-                        <div><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=susheelvishwa&theme=dark"
-                                alt="susheelvishwa" /></p>
+                        <div>
+                            <img src="https://github-readme-stats.vercel.app/api?username=susheelvishwa&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
+                                alt="susheelvishwa" />
+                        </div>
+                        <div>
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=susheelvishwa&show_icons=true&locale=en&layout=compact&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
+                                alt="susheelvishwa" />
+                        </div>
+                        <div>
+                            <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=susheelvishwa&theme=dark"
+                                alt="susheelvishwa" />
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
+
     </main>
     
 

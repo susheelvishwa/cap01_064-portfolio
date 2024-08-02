@@ -151,38 +151,49 @@ body {
 
 /* ===== ABOUT =====*/
 .about__container {
-  row-gap: 2rem;
-  height: auto;
-  width: auto;
-  padding-right: 40px;
   border-radius: 15px;
+  padding: 5px;
 }
 .border-box{
-  background-color:rgb(111, 113, 244);
-  display: grid;
-  padding: 30px;
-  gap: 20px;
-  color: white;
+  background-color:rgb(223, 223, 243);
+  color: rgb(105, 99, 99);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 13px;
 }
 .about__img{
   border-radius: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 60px;
 }
 .pho{
-  width: 100%;
   border-radius: 50%;
+  box-shadow: #232323;
+  border: 1px solid rgb(144, 112, 112);
+  padding: 25px;
+  margin: 5px;
 }
 
-/* ===== Tools =====*/
+.message {
+  font-weight: 300;
+  text-align: left;
+  text-rendering: var(--mb-4);
+  white-space: pre-wrap;
+  margin: 20px;
+}
+.intro{
+  padding: 20px;
+  
+}
 
+/* ----------------------------------------------------------------- */
 .work__container {
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
-  padding: 70px;
+  box-shadow: rgba(255, 254, 254, 0.2) 0px 7px 29px 0px;
+  padding: 50px;
   border-radius: 10px;
-  row-gap: 2rem;
 }
-
 
 /*=====Education=====*/
 .fix{
@@ -193,9 +204,17 @@ body {
   box-shadow: rgba(1, 1, 1,0.1) 0px 0px 1px 0.5px;
   border-radius: 5px;
   color: white;
+  font-size: small;
 }
 .eddu{
   padding-bottom: 0;
+}
+.educ{
+  padding: 1rem;
+  gap: 20px;
+}
+.outer{
+  padding: 50px;
 }
 .black {
   color:rgb(78, 36, 225);
@@ -203,7 +222,6 @@ body {
 .black1 {
   color: rgb(59, 55, 55);
 }
-
 .black2 {
   color: rgb(72, 49, 220);
 }
@@ -397,10 +415,6 @@ h1 {
   .home__img {
     width: 400px;
     bottom: 10%;
-  }
-  .about__container {
-    padding-top: 2rem;
-    
   }
   .about__img img {
     width: 300px;

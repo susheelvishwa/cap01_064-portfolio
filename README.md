@@ -7,8 +7,6 @@
 
 ## Features
 
-![screenShort](./assets/img/image2.png)
-
 - Responsive design
 - Interactive navigation menu
 - Sections for About, Skills, Tools, Education, Projects, and GitHub
@@ -17,12 +15,17 @@
 ## Sections
 
 # Home
+![home](./image/home.png)
 # About
-# Skills
-# Tools
+![About](./image/about.png)
+# Skills and Tools
+![Skills](./image/skills.png)
 # Education
+![Education](./image/education.png)
 # Projects
+![Projects](./image/projects.png)
 # GitHub
+![Github](./image/github.png)
 
 [website link](https://susheelvishwa.netlify.app)
 

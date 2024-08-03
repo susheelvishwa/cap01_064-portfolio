@@ -681,7 +681,6 @@ h1 {
 
 /* ===== MEDIA QUERIES=====*/
 
-/* Media query for screen widths up to 480px */
 @media screen and (max-width: 480px) {
   .home {
     row-gap: 4rem;
@@ -709,7 +708,7 @@ h1 {
   }
 }
 
-/* Media query for screen widths from 576px and up */
+
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
@@ -767,7 +766,7 @@ h1 {
   }
 }
 
-/* Media query for screen widths from 768px and up */
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -835,7 +834,6 @@ h1 {
   }
 }
 
-/* Media query for screen widths from 992px and up */
 @media screen and (min-width: 992px) {
   .bd-grid {
     margin-left: auto;
@@ -851,14 +849,13 @@ h1 {
   }
 }
 
-/* Media query for screen widths up to 768px */
+
 @media screen and (max-width: 768px) {
   .projects__container {
     grid-template-columns: 1fr;
   }
 }
 
-/* Media query for screen widths up to 767px */
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
